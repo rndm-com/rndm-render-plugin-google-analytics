@@ -1,0 +1,20 @@
+{
+  "name": "@rndm/render-plugin-google-analytics",
+  "version": "0.1.0",
+  "description": "RNDM Render Plugin: Google Analytics. Google Analytics functionality for RNDM Render",
+  "main": "src/index.js",
+  "author": "RNDM",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/rndm-com/rndm-render-plugin-google-analytics#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rndm-com/rndm-render-plugin-google-analytics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rndm-com/rndm-render-plugin-google-analytics/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "react-ga": "^2.5.6"
+  }
+}

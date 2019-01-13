@@ -1,0 +1,22 @@
+{
+  "type": "react-native.View",
+  "props": {
+    "middleware": [{
+      "middleware": "google-analytics.initialize",
+      "args": ["YOUR_TRACKER_HERE", {
+        "gaOptions": {
+          "name": "example"
+        }
+      }]
+    }, {
+      "middleware": "google-analytics.pageview",
+      "args": ["/test", ["example"]]
+    }],
+    "children": {
+      "type": "react-native.Text",
+      "props": {
+        "children": "Testing"
+      }
+    }
+  }
+}
